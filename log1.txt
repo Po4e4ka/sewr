@@ -1,0 +1,34 @@
+admin
+Password: *****
+S4820#2000/01/01 09:02:25 S4820 %01-4-CLI-LOGON(l):c[console]User admin at host(Console) successfully log on.
+onf
+  %Enter configuration commands.End with Ctrl+Z or command "quit" & "end"
+S4820(config)#vlan 25
+S4820(vlan-25)#interface vlan 25
+S4820(config-vlan-25)#ip address10.223.147.4/24
+  %Unknown command ->"ip" .
+S4820(config-vlan-25)#exi
+S4820(config)#ip route-static 0.0.0.0 0.0.0.0 10.223.147.1
+S4820(config)#interface xgigaethernet 1/1/1
+S4820(config-xge1/1/1)#port link-type trunk
+S4820(config-xge1/1/1)#port trunk allow-pass vlan 25
+S4820(config-xge1/1/1)#exi
+S4820(config)#
+S4820(config)#interface xgigaethernet 1/1/2
+S4820(config-xge1/1/2)#
+S4820(config-xge1/1/2)#port link-type trunk
+S4820(config-xge1/1/2)#port trunk allow-pass vlan 25
+S4820(config-xge1/1/2)#exi
+S4820(config)#interface xgigaethernet 1/2/1
+S4820(config-xge1/2/1)#port link-type trunk
+S4820(config-xge1/2/1)#port trunk allow-pass vlan 25
+S4820(config-xge1/2/1)#exi
+S4820(config)#interface xgigaethernet 1/2/2
+S4820(config-xge1/2/2)#port link-type trunk
+S4820(config-xge1/2/2)#port trunk allow-pass vlan 25
+S4820(config-xge1/2/2)#exi
+S4820(config)#
+S4820(config)#write f
+  This will save the configuration in the flash memory.
+  Are you sure?(y/n) [y]y
+  Building configuration,please wait for a moment.....

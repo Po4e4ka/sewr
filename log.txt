@@ -1,0 +1,100 @@
+
+Password: 
+  %No such user or bad password.
+
+Username: 2000/01/02 06:15:11 S4820 %01-4-CLI-LOGON(l):[console] User  at host(Console) unsuccessfully log on(107).
+admin
+Password: 
+  %No such user or bad password.
+
+Username: 12000/01/02 06:15:11 S4820 %01-4-CLI-LOGON(l):[console] User admin at host(Console) unsuccessfully log on(117).
+2345
+Password: **
+  %No such user or bad password.
+***
+Username: era2000/01/02 06:15:11 S4820 %01-4-CLI-LOGON(l):[console] User 12345 at host(Console) unsuccessfully log on(107).
+se startup-config
+Password: 
+  %No such user or bad password.
+*
+Username: e2000/01/02 06:15:11 S4820 %01-4-CLI-LOGON(l):[console] User erase startup-config at host(Console) unsuccessfully log on(107).
+xi
+Password: ****
+  %No such user or bad password.
+*******
+Username: 2000/01/02 06:15:11 S4820 %01-4-CLI-LOGON(l):[console] User exi at host(Console) unsuccessfully log on(107).
+
+Password: *******
+  %No such user or bad password.
+*****
+Username: c2000/01/02 06:15:12 S4820 %01-4-CLI-LOGON(l):[console] User  at host(Console) unsuccessfully log on(107).
+onf
+Password: **
+  %No such user or bad password.
+*****
+Username: i2000/01/02 06:15:12 S4820 %01-4-CLI-LOGON(l):[console] User conf at host(Console) unsuccessfully log on(107).
+nterface vlan 25
+Password: *********************
+  %No such user or bad password.
+*****
+Username: e2000/01/02 06:15:12 S4820 %01-4-CLI-LOGON(l):[console] User interface vlan 25 at host(Console) unsuccessfully log on(107).
+xi
+Password: *******************************************
+  %No such user or bad password.
+*
+Username: inter2000/01/02 06:15:12 S4820 %01-4-CLI-LOGON(l):[console] User exi at host(Console) unsuccessfully log on(107).
+face xgigaethernet 1/1/1
+Password: **************
+  %No such user or bad password.
+******
+Username: 2000/01/02 06:15:12 S4820 %01-4-CLI-LOGON(l):[console] User interface xgigaethernet 1/1/1 at host(Console) unsuccessfully log on(107).
+
+Password: ***********************
+  %No such user or bad password.
+******
+Username: 2000/01/02 06:15:12 S4820 %01-4-CLI-LOGON(l):[console] User  at host(Console) unsuccessfully log on(107).
+exi
+Password: **************************
+  %No such user or bad password.
+***
+Username: por2000/01/02 06:15:12 S4820 %01-4-CLI-LOGON(l):[console] User exi at host(Console) unsuccessfully log on(107).
+t link-type trunk
+Password: ****************************
+  %No such user or bad password.
+*
+Username: exi
+Password: 2000/01/02 06:15:12 S4820 %01-4-CLI-LOGON(l):[console] User port link-type trunk at host(Console) unsuccessfully log on(107).
+************************
+  %No such user or bad password.
+*****
+Username: 2000/01/02 06:15:12 S4820 %01-4-CLI-LOGON(l):[console] User exi at host(Console) unsuccessfully log on(107).
+port link-type trunk
+Password: *************************
+  %No such user or bad password.
+****
+Username: ex2000/01/02 06:15:12 S4820 %01-4-CLI-LOGON(l):[console] User port link-type trunk at host(Console) unsuccessfully log on(107).
+i
+Password: *****************************
+  %No such user or bad password.
+
+Username: port 2000/01/02 06:15:12 S4820 %01-4-CLI-LOGON(l):[console] User exi at host(Console) unsuccessfully log on(107).
+link-type trunk
+Password: 
+  %No such user or bad password.
+
+Username: port tr2000/01/02 06:15:12 S4820 %01-4-CLI-LOGON(l):[console] User port link-type trunk at host(Console) unsuccessfully log on(107).
+unk allow-pass vlan 25
+Password: 
+  %No such user or bad password.
+
+Username: exi
+Password: 2000/01/02 06:15:12 S4820 %01-4-CLI-LOGON(l):[console] User port trunk allow-pass vlan 25 at host(Console) unsuccessfully log on(107).
+********
+  %No such user or bad password.
+**
+Username: 2000/01/02 06:15:13 S4820 %01-4-CLI-LOGON(l):[console] User exi at host(Console) unsuccessfully log on(107).
+y
+Password: ********
+  %No such user or bad password.
+***
+Username: 2000/01/02 06:15:16 S4820 %01-4-CLI-LOGON(l):[console] User y at host(Console) unsuccessfully log on(107).
